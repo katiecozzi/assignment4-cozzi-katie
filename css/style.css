@@ -3,8 +3,48 @@ Universal Styling
 ======================*/
 
 *{
-margin: 0;
-padding: 0;
-border: 0;
-
+margin:0;
+padding:0;
+border:0;
 }
+
+header {
+    background-color: #c1d1c2;
+    color: white;
+    padding: 20px;
+}
+
+header a{
+color: white;
+text-decoration: none;
+position: fixed;
+width: 100%;
+top: 0;
+}
+
+header li{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+nav {
+    display: inline-block;
+}
+
+main.container {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 90px;
+}
+
+section {
+    margin: 60px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/*==================
+  Position Section Styling
+  ==================*/
