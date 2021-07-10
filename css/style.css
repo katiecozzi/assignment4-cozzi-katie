@@ -23,6 +23,7 @@ text-decoration: none;
 position: fixed;
 width: 100%;
 top: 20px;
+font-family: sans-serif;
 }
 
 header li{
@@ -47,16 +48,22 @@ h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
     color: #d1a7c4
-
-
 }
+
 p{
   font-family: 'Raleway', sans-serif;
 }
 
 span.Rabbit {
     font-weight: bold;
+    font-size: 20px;
     color: #83a58d;
+    display: block;
+}
+
+img.Bunny {
+    float: left;
+    margin: 0 20px 0 0;
 }
 
 /*==================
