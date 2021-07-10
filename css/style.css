@@ -12,6 +12,9 @@ header {
     background-color: #c1d1c2;
     color: white;
     padding: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
 }
 
 header a{
@@ -19,7 +22,7 @@ color: white;
 text-decoration: none;
 position: fixed;
 width: 100%;
-top: 0;
+top: 20px;
 }
 
 header li{
@@ -48,3 +51,16 @@ h2 {
 /*==================
   Position Section Styling
   ==================*/
+
+  section.Banner.Header {
+    position: relative;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  padding: 150px 70px;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+
+}
