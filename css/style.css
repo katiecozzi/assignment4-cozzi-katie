@@ -52,7 +52,11 @@ h2 {
 }
 p{
   font-family: 'Raleway', sans-serif;
+}
 
+span.Rabbit {
+    font-weight: bold;
+    color: #83a58d;
 }
 
 /*==================
