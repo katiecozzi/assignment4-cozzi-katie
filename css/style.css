@@ -109,19 +109,15 @@ h1 {
   .pop-bun{
     position: absolute;
     top: 600px;
-    float: right;
+    left: 0px;
     animation-name: pop;
-    animation-duration: .8s;
-    animation-delay: 2s;
-    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
   }
 
 @keyframes pop {
-  from{
-    transform: translateX(0px);
-  }
-  to{
-    transform: translateX(200px);
-  }
-
+0% {left: -150px;}
+50% {left: 15px;}
+100% {left: -150px;}
 }
