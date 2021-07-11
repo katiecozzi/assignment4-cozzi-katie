@@ -39,6 +39,8 @@ main.container {
     max-width: 900px;
     margin: auto;
     padding-top: 90px;
+    padding-bottom: 90px;
+
 }
 
 
@@ -66,6 +68,12 @@ img.Bunny {
     margin: 0 20px 0 0;
 
 }
+
+/*==================
+  Hover Styling
+  ==================*/
+
+
 img.Bunny:hover{
   opacity: .1;
   transition: 2s
@@ -91,5 +99,29 @@ h1 {
   padding: 150px 50px;
   font-size: 60px;
   font-family: 'Dancing Script', cursive;
+
+}
+
+/*==================
+  Animation Styling
+  ==================*/
+
+  .pop-bun{
+    position: absolute;
+    top: 600px;
+    float: right;
+    animation-name: pop;
+    animation-duration: .8s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+  }
+
+@keyframes pop {
+  from{
+    transform: translateX(0px);
+  }
+  to{
+    transform: translateX(200px);
+  }
 
 }
